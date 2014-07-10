@@ -1,8 +1,8 @@
 {
     "name": "travis-qunit-test",
     "version": "0.1.0",
-    "description": "Travis CI / QUnit test",
-    "main": "",
+    "description": "Trying to make QUnit run on Travis CI",
+    "main": "tests/tests.html",
     "dependencies": {
         "grunt": "^0.4"
     },

@@ -12,6 +12,6 @@
     ],
     "dependencies": {
         "jquery": ">=1",
-        "qunit": ">=1.14"
+        "qunit": ">=1.1"
     }
 }
