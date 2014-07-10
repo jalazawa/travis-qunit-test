@@ -1,29 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script>
-			// EVENT TEST LOGGING
-			console.log('TOP OF HEAD');
-			document.addEventListener('DOMContentLoaded', function() { console.log('DOMContentLoaded'); }, false);
-			window.addEventListener('load', function() { console.log('window.load'); }, false);
-		</script>
-		<meta charse
 		<meta charset="utf-8">
 		<title>Tests</title>
-		<link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css">
-		<script>
-			// EVENT TEST LOGGING
-			$(function() { console.log('jQuery document ready'); });
-		</script>
-		<script src="../bower_components/jquery/dist/jquery.js"></script>
-		<script src="../bower_components/qunit/qunit/qunit.js"></script>
-		<script src="tests.js"></script>
+		<!-- <link rel="stylesheet" href="../bower_components/qunit/qunit/qunit.css"> -->
 	</head>
 	<body>
-
 		<div id="qunit"></div>
 		<div id="qunit-fixture"></div>
 
-
+		<script src="../bower_components/jquery/dist/jquery.js"></script>
+		<script src="../bower_components/qunit/qunit/qunit.js"></script>
+		<script src="http://127.0.0.1:8080/tests/tests.js"></script>
 	</body>
 </html>

@@ -1,4 +1,4 @@
 test:
   - 'jshint'
-  #- 'connect'
+  - 'connect'
   - 'qunit'
