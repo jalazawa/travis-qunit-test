@@ -1,6 +1,6 @@
 {
     "name": "travis-qunit-test",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Travis CI / QUnit test",
     "main": "",
     "dependencies": {
