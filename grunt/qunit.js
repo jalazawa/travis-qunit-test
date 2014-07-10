@@ -2,6 +2,6 @@
 
 module.exports = {
     files: [
-        'tests/tests.html'
+        '/home/travis/build/stebru/travis-qunit-test/tests/tests.html'
     ]
 };
