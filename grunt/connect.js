@@ -4,7 +4,7 @@ module.exports = {
     server: {
         options: {
             hostname: "127.0.0.1",
-            base: ".",
+            base: "/home/travis/build/stebru/travis-qunit-test/",
             port: 8080
         }
     }
