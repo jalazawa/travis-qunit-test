@@ -1,11 +1,13 @@
 // https://www.npmjs.org/package/grunt-contrib-qunit
 
 module.exports = {
-    qunit: {
+    all: {
         options: {
             urls: [
-                'http://127.0.0.1:8080/tests/tests.html',
-            ]
+                'http://127.0.0.1:8080/tests/tests.html'
+            ],
+            timeout: 10000,
+            screenshot: true
         }
     }
 };
