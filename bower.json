@@ -1,0 +1,17 @@
+{
+    "name": "travis-qunit-test",
+    "version": "0.2.5",
+    "authors": [
+        "Stefan Bruvik"
+    ],
+    "main": "tests/tests.html",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "jquery": ">=1",
+        "qunit": ">=1.14"
+    }
+}
